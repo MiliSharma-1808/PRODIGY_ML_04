@@ -36,17 +36,24 @@ Develop a **Hand Gesture Recognition Model** using the **LeapGestRecog Dataset**
 
 ## 🚀 Output Preview  
 
-### Sample Preprocessing (Pseudo-Coloring)
+### 1️⃣ Sample Preprocessing (Pseudo-Coloring)
 Top Row → Original Images (Grayscale)  
 Bottom Row → Pseudo-Colored Images  
 
-![Sample Gesture Preprocessing](output_4.1.png)
+![Sample Gesture Preprocessing](ouput_4.1.png)
+
+---
+
+### 2️⃣ Training Performance
+Accuracy and Loss curves during model training  
+
+![Training Curves](output_4.2.png)
 
 ---
 
 ## ✅ Results
-- Achieved good classification accuracy on test data  
-- Successfully predicted labels for unseen gesture images  
+- Achieved ~50% classification accuracy on test data  
+- Successfully implemented preprocessing + CNN training pipeline  
 
 ---
 
@@ -54,6 +61,7 @@ Bottom Row → Pseudo-Colored Images
 - `PRODIGY_ML_04.ipynb` → Full implementation notebook  
 - `README.md` → Project overview  
 - `images/output_4.1.png` → Visualization of preprocessing  
+- `images/output_4.2.png` → Training accuracy & loss curves  
 
 ---
 
@@ -72,4 +80,3 @@ Click the badge below to open the notebook in **Google Colab**:
 ---
 
 📝 **Note:** This repository is maintained as part of the **Prodigy InfoTech Machine Learning Internship**.
-
